@@ -1,0 +1,94 @@
+body {
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(#a2d2ff, #EFB0CD);
+}
+
+#profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #EFB0C9;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h4, p {
+    text-shadow: 0px 0px 1px black;
+}
+
+#bday-age {
+    background-color: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin: 15px 0 10px 0;
+}
+#bday-date {
+    margin: 0;
+    background-color: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+.gift-section {
+    margin-top: 20px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-happy:hover {
+    background-image: url('imagePer/firstone1.webp');
+}
+
+.gift-img {
+    background-image: url('imagePer/gift-cover.jpg');
+    background-size: cover;
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+}
+
+#gift-img-hot:hover {
+    background-image: url("imagePer/second.webp");
+}
+
+#gift-img-genius:hover {
+    background-image: url("imagePer/third.webp");
+    background-size: cover;
+}
+
+#gift-img-badass:hover {
+    background-image: url("imagePer/fourth.webp");
+}
+
+#gift-img-cheer {
+    height: 200px;
+}
+
+#gift-img-cheer:hover {
+    background-image: url("imagePer/cheers.gif");
+}
+
+#footer {
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #a2d2ff;
+}
+
+a {
+    color: white;
+}
